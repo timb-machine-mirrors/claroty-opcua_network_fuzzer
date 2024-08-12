@@ -47,7 +47,7 @@ Sometimes before running the fuzzer you want to ensure that the OPC UA session i
 - [Read Service](https://reference.opcfoundation.org/Core/Part4/v105/docs/5.10.2) (read_request): we are fuzzing the nodes to read
 - [Browse Service](https://reference.opcfoundation.org/Core/Part4/v105/docs/5.8.2) (browse_request): we are fuzzing the browsed nodes
 - [Browse Next Service](https://reference.opcfoundation.org/Core/Part4/v105/docs/5.8.3) (browse_next_request): we are fuzzing the browsed nodes
-- [Create Subscription Service](https://reference.opcfoundation.org/Core/Part4/v105/docs/5.13.2) (create_subsctibtion_request): we are fuzzing the entire content
+- [Create Subscription Service](https://reference.opcfoundation.org/Core/Part4/v105/docs/5.13.2) (create_subscription_request): we are fuzzing the entire content
 - [Add Nodes Service](https://reference.opcfoundation.org/Core/Part4/v105/docs/5.7.2) (add_nodes_request): we are fuzzing the content that describes the nodes to be added
 - [History Read Service](https://reference.opcfoundation.org/v104/Core/docs/Part4/5.10.3/) (history_read_request):  we are fuzzing the number of nodes and the entire content of the read history request
 
